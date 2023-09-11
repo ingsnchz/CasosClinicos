@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 403388147}
   - component: {fileID: 403388146}
   - component: {fileID: 403388150}
+  - component: {fileID: 403388151}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -350,6 +351,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &403388151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403388145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7881a860e695c4f9dfad70aa39f059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  edad: 15
+  altura: 1.85
+  speed: 30
+  nombre: Jorge
+  letras: 108
+  IsDoorOpen: 0
 --- !u!1 &730895578
 GameObject:
   m_ObjectHideFlags: 0
