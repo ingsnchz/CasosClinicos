@@ -22,6 +22,18 @@ public class CubeRotation : MonoBehaviour
     {
         nombre = _nombre;
     }
+
+    void setRotationOfCube()
+    {
+        transform.Rotate(Vector3.up * 30 * Time.deltaTime);
+
+    }
+
+    float getAltura ()
+    {
+        return altura;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +44,8 @@ public class CubeRotation : MonoBehaviour
     void Update()
     {
         Debug.Log("actualiacion de la funcion Update()");
-        transform.Rotate(Vector3.up * 30 * Time.deltaTime);
         setRotationOfCube();
+        Debug.Log("La altura es:" + getAltura() . ToString());
+       
     }
 }
