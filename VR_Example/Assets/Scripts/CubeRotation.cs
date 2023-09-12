@@ -26,6 +26,11 @@ public class NewBehaviourScript : MonoBehaviour
         transform.Rotate(Vector3.up * speed * Time.deltaTime);
     }
 
+    float getAltura()
+    {
+        return altura; 
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +43,13 @@ public class NewBehaviourScript : MonoBehaviour
     {
         //Actualizacion logica
         Debug.Log("Actualizacion de la funcion Update()");
+
         // 1) Crear una variable de tipo float llamada speed
         // 2) Crear una funcion llamada setRotationOfCube()
         // 3) Llamar funcion en Update
         setRotationOfCube();
+
+        Debug.Log("La altura es: " + getAltura().ToString());
     }
 
 
