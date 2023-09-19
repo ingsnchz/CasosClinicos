@@ -10,15 +10,11 @@ public class CubeRotation : MonoBehaviour
     public string nombre= "Andrea";
     public char letras = '1';
     public bool IsDoorOpen = false;
+}
 
-    // Function
+// Function
 
-    void setNombre()
-    {
-        //Logica
-    }
-
-    void setNombre(string _nombre)
+void setNombre(string _nombre)
     {
         nombre = _nombre;
     }
